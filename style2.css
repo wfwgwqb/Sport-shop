@@ -1,0 +1,80 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+}
+
+/*Зроби цей сайт красивим 😉*/
+.header h1 {
+    color: #ffd700; /* золотой, чтобы название выделялось на градиенте */
+    text-align: center; /* по центру */
+    margin: 0;
+    padding: 20px 0;
+}
+.header {
+    background: linear-gradient(to right, #1e3c72, #2a5298); /* градиент */
+    padding: 20px; /* внутренние отступы */
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #ffd700;
+}
+.main {
+    padding: 20px;
+    background: linear-gradient(to right, #1e3c72, #2a5298); /* тот же градиент что у хедера */
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.product {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    width: 200px;
+}
+
+.product img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.buy-btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #ffd700;
+    color: #1e3c72;
+    border: none;
+    
+}
+
+.buy-btn:hover {
+    background-color: #ffea00;
+}
+.footer {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+
